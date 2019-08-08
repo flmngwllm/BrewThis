@@ -1,4 +1,4 @@
-const mongoose = require("../db/connection")
+const mongoose = require('../db/connection')
 const Schema = mongoose.Schema
 
 const Brewery =  new Schema({
@@ -12,4 +12,4 @@ const Brewery =  new Schema({
 })
 
 
-module.exports = mongoose.model(Brewery, Brewery)
+module.exports = mongoose.model('Brewery', Brewery)
