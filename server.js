@@ -2,6 +2,7 @@
 const express = require("express")
 const morgan = require("morgan")
 const app = express()
+const routes = require("./routes/index")
 
 //registering middleware
 app.use(morgan('dev'))
@@ -14,9 +15,8 @@ app.use(express.urlencoded({ extended : true}))
 app.use(express.static(`${__dirname}/client/build`))
 
 
-app.get('/',  (req, res) => {
-    res.send("Hello World")
-  })
+app.use('/', routes)
+
 
 
 //setup prot and start port
