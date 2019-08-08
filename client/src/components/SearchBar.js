@@ -17,7 +17,7 @@ onInputChange = (event) =>{
 onFormSubmit = (event)=>{
     event.preventDefault()
 
-    this.props.onFormSubmit(this.state.name)
+    this.props.onSubmit(this.state.name)
 }
 
 
