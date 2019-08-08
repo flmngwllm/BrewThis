@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/flmngwllm/BrewThis/issues"
   },
-  "homepage": "https://github.com/flmngwllm/BrewThis#readme"
+  "homepage": "https://github.com/flmngwllm/BrewThis#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1"
+  }
 }
