@@ -4,9 +4,18 @@ import Home from './Home'
 import Nav from './Nav'
 import SearchBar from './SearchBar'
 
-state = {}
+
 
 class App extends React.Component{
+
+    state = {
+        brewery : []
+    }
+
+    componentDidMount = async ()=>{
+        const response = await 
+    }
+
     render(){
         return(
             
