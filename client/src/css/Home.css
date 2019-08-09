@@ -1,0 +1,28 @@
+#Home{
+overflow: hidden;
+width: 100%;
+color: white;
+}
+
+#main-text{
+margin: 10% 10% 5%;
+text-align: center;
+word-spacing: 3px;
+
+}
+
+#name-text{
+font-size: 90px;
+color: white;
+}
+
+#sub-text{
+font-size: 30px;
+}
+
+
+#entry{
+display: flex;
+width: 70%;
+margin: 0 auto;
+}
