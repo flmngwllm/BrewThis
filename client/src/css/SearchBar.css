@@ -1,0 +1,26 @@
+#search{
+width: 100%;
+background-color: black;
+color: white;
+}
+
+#search-input{
+display: block;
+width: 89%;
+height: 60px;
+margin: auto;
+font-size: 30px;
+text-indent: 10px;
+outline: none;
+border-left: 0;
+border-right: 0;
+border-top: 0;
+background-color: black;
+color: white;
+text-align: center;
+letter-spacing: 2px;
+}
+
+form{
+    margin: auto;
+}

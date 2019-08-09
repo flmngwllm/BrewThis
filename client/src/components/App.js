@@ -5,6 +5,7 @@ import Nav from './Nav'
 import BrewSearch from './BrewSearch'
 import './App.css'
 import '../css/Nav.css'
+import '../css/SearchBar.css'
 
 
 class App extends React.Component{
@@ -22,7 +23,7 @@ class App extends React.Component{
                     <div>
                     <Switch>
                         <Route exact path="/" component = {Home}/>
-                        <Route exact path="/Search" component ={BrewSearch}/>
+                        <Route exact path="/BrewSearch" component ={BrewSearch}/>
                     </Switch>
                     </div>
                 </Router>
