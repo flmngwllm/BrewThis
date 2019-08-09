@@ -24,3 +24,8 @@ letter-spacing: 2px;
 form{
     margin: auto;
 }
+
+h1{
+    text-align: center;
+    color: goldenrod;
+}

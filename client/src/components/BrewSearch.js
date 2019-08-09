@@ -19,7 +19,9 @@ class Search extends Component {
 
     render() {
         return (
+            
             <div id="search">
+                <h1>Enter a City below </h1>
                 <SearchBar onSubmit={this.onSearchSubmit}/>   
                     <BrewList brewery={this.state.brewery} />  
             </div>
