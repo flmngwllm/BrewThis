@@ -1,3 +1,26 @@
-Nav{
-    
+#Nav{
+    width:100%;
+    display: block;
+    font-size:25px;
+
+}
+
+.navDivs{
+    height: 15%;
+    margin: 5px 5px 15px 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navLinks{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navOpt{
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 25px 10px;
 }

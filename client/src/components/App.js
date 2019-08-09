@@ -4,6 +4,7 @@ import Home from './Home'
 import Nav from './Nav'
 import BrewSearch from './BrewSearch'
 import './App.css'
+import '../css/Nav.css'
 
 
 class App extends React.Component{
