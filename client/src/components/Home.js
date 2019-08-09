@@ -13,8 +13,8 @@ class Home extends Component {
                 </div>
 
                 <div id="entry">
-                <Link to="/BrewSearch"><button>Search</button></Link>
-                <Link to="/Favorites"><button>Favorites</button></Link>
+                <Link className="fr-btn" to="/BrewSearch">Search</Link>
+                <Link className="fr-btn"to="/Favorites">Favorites</Link>
                 </div>
 
             </div>
