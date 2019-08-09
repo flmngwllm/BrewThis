@@ -11,8 +11,6 @@ const BrewList = (props) => {
                 {breweries.phone}
 
         </div>
-
-        
     })
 
 

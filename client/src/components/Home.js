@@ -6,7 +6,7 @@ class Home extends Component {
         return (
             <div>
                 <h1>Brew This</h1>
-                <h1>The best brew you have had this week</h1>
+                <h3>The best brew you have had this week</h3>
                 <Link to="/BrewSearch"><button>Search</button></Link>
 
             </div>

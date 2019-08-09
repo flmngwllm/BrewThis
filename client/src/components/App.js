@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './Home'
 import Nav from './Nav'
 import BrewSearch from './BrewSearch'
+import './App.css'
 
 
 class App extends React.Component{
@@ -13,7 +14,7 @@ class App extends React.Component{
     render(){
         return(
 
-            <div> 
+            <div className="App"> 
                 <Router>
 
                     <Nav/>
