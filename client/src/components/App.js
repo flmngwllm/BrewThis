@@ -7,6 +7,7 @@ import './App.css'
 import '../css/Nav.css'
 import '../css/SearchBar.css'
 import '../css/BrewList.css'
+import '../css/Home.css'
 
 
 class App extends React.Component{

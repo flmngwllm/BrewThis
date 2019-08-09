@@ -19,7 +19,7 @@ class Search extends Component {
 
     render() {
         return (
-            <div>
+            <div id="search">
                 <SearchBar onSubmit={this.onSearchSubmit}/>   
                     <BrewList brewery={this.state.brewery} />  
             </div>

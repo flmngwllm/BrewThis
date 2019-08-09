@@ -24,7 +24,7 @@ onFormSubmit = (event)=>{
 
     render(){
         return(
-            <div id="search">
+            <div>
                 SearchBar
                 <form onSubmit={this.onFormSubmit}>
 
