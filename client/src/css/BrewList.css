@@ -14,17 +14,17 @@ padding: 10px 30px;
     height: 100px;
 }
 
-.tRow:nth-of-type(1){
+.tbRow:nth-of-type(1){
     font-size: 25px;
     letter-spacing: 5px;
 }
 
-.tRow:hover:not(:nth-of-type(1)){
+.tbRow:hover:not(:nth-of-type(1)){
     background-color: rgba(230, 227, 227, 0.2);
 }
 
 .mainName{
-color: white;
+color: goldenrod;
 width: 300px;
 height: 80px;
 text-align: center;
@@ -33,7 +33,7 @@ text-align: center;
 .tbData{
     padding: 40px 5px;
     text-align: center;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px goldenrod;
     height: 80px
 }
 

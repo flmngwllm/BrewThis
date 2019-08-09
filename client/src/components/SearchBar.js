@@ -25,7 +25,7 @@ onFormSubmit = (event)=>{
     render(){
         return(
             <div>
-                SearchBar
+                
                 <form onSubmit={this.onFormSubmit}>
 
                     <input id="search-input" type='text' value={this.state.name}
