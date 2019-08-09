@@ -7,7 +7,7 @@ const BrewList = (props) => {
                      <tr className="tbRow">
                 <td className="tbData"><a className="brewery-name" href = {breweries.website_url}>{breweries.name}</a></td>
                  <td className="tbData">{breweries.brewery_type}</td>
-                 <td className="tbData">{breweries.street}</td>
+                 <td className="tbData">{breweries.street} {breweries.city}{breweries.state}</td>
                  <td className="tbData"> {breweries.phone}</td>
                  </tr> 
             </div>
@@ -26,11 +26,11 @@ const BrewList = (props) => {
                     <th className="mainName">Street</th>
                     <th className="mainName">Phone</th>
                     </tr>
-                    {brewery}
+                   
                 </tbody>
                 
             </table>
-            
+            {brewery}
         </div>
     )
 }
