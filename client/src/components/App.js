@@ -4,6 +4,7 @@ import Home from './Home'
 import Nav from './Nav'
 import SearchBar from './SearchBar'
 import OpenBrew from '../api/OpenBrew';
+import BrewList from '../components/BrewList'
 
 
 
@@ -13,22 +14,22 @@ class App extends React.Component{
         brewery : []
     }
 
-    onSearchSubmit = async (name) => {
+    onSearchSubmit = async (city) => {
         const response = await OpenBrew.get('/search', {
-        params: {query: name}
+        params: {query: city}
     })
 
-    console.log(
-    {brewery: response.data})
-    
+    this.setState({brewery: response.data})
 }
+
 
     render(){
         return(
 
             <div> 
                 <Router>
-                    <SearchBar onSubmit={this.onSearchSubmit}/>        
+                    <SearchBar onSubmit={this.onSearchSubmit}/>   
+                    <BrewList brewery={this.state.brewery} />  
                     <Nav/>
                     <div>
                     <Switch>
