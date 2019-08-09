@@ -4,18 +4,20 @@ import BrewCard from './BrewCard'
 
 const BrewList = (props) => {
     const brewery = props.brewery.map((breweries)=>{
-        return <div key={breweries.id} breweries={breweries} >
-                <a href = {breweries.website_url}>{breweries.name}</a>
-                {breweries.brewery_type}
-                {breweries.street}
-                {breweries.phone}
-
-        </div>
+        return <tr className="tbRow">
+            <div key={breweries.id} breweries={breweries} >
+                <td className="tbData"><a href = {breweries.website_url}>{breweries.name}</a></td>
+                 <td className="tbData">{breweries.brewery_type}</td>
+                 <td className="tbData">{breweries.street}</td>
+                 <td className="tbData"> {breweries.phone}</td>
+                
+            </div>
+            </tr>
     })
 
     return(
         <div id= "container">
-            <table id="primtable">
+            <table id="primTable">
                 <tbody>
                     <tr className="tbRow">
                     <th className="mainName">Name</th>
@@ -26,7 +28,6 @@ const BrewList = (props) => {
                     {brewery}
                 </tbody>
             </table>
-            {brewery}
         </div>
     )
 }

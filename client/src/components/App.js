@@ -6,6 +6,7 @@ import BrewSearch from './BrewSearch'
 import './App.css'
 import '../css/Nav.css'
 import '../css/SearchBar.css'
+import '../css/BrewList.css'
 
 
 class App extends React.Component{
