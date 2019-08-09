@@ -2,6 +2,7 @@ import React from 'react';
 
 
 const BrewList = (props) => {
+    //mapping through breweries and creating a table row with table data to assign 
     const brewery = props.brewery.map((breweries)=>{
         return     <tr className="tbRow">
              <td className="tbData"><a className="brewery-name" href = {breweries.website_url}>{breweries.name}</a></td>
@@ -20,6 +21,7 @@ const BrewList = (props) => {
     })
 
     return(
+        //table with fields that contains the mapped breweries
         <div id= "container">
             <table id="primTable">
                 <tbody>

@@ -17,7 +17,7 @@ class App extends React.Component{
 
     render(){
         return(
-
+//set up routing to navigate to different component pages
             <div className="App"> 
                 <Router>
 

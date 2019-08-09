@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 const Nav = () => {
     return(
+        //navigation bar component that contains links to pages
         <div id="Nav">
             <div id="navLinks" className="navDivs">
                 <div className="navOpt">

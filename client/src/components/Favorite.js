@@ -1,6 +1,7 @@
+//In progress
 import React, { Component } from 'react';
 
-class BrewCard extends Component {
+class FavoriteBrew extends Component {
 
     
     render() {
@@ -12,4 +13,4 @@ class BrewCard extends Component {
     }
 }
 
-export default BrewCard;
+export default FavoriteBrew;
