@@ -7,7 +7,7 @@ class Home extends Component {
             <div>
                 <h1>Brew This</h1>
                 <h1>The best brew you have had this week</h1>
-                <Link to="/Search"><button>Search</button></Link>
+                <Link to="/BrewSearch"><button>Search</button></Link>
 
             </div>
         );
