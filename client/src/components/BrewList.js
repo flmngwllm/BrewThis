@@ -13,9 +13,19 @@ const BrewList = (props) => {
         </div>
     })
 
-
     return(
-        <div>
+        <div id= "container">
+            <table id="primtable">
+                <tbody>
+                    <tr className="tbRow">
+                    <th className="mainName">Name</th>
+                    <th className="mainName">Type</th>
+                    <th className="mainName">Street</th>
+                    <th className="mainName">Phone</th>
+                    </tr>
+                    {brewery}
+                </tbody>
+            </table>
             {brewery}
         </div>
     )
