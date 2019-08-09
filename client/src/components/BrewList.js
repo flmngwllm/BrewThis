@@ -5,7 +5,7 @@ import BrewCard from './BrewCard'
 const BrewList = (props) => {
     const brewery = props.brewery.map((breweries)=>{
         return <div key={breweries.id} breweries={breweries} >
-                {breweries.name}
+                <a href = {breweries.website_url}>{breweries.name}</a>
                 {breweries.brewery_type}
                 {breweries.street}
                 {breweries.phone}
