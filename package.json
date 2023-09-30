@@ -25,7 +25,7 @@
   "homepage": "https://github.com/flmngwllm/BrewThis#readme",
   "dependencies": {
     "concurrently": "^8.2.1",
-    "cypress": "^4.2.0",
+    "cypress": "^13.3.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "latest": "^0.2.0",
