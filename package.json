@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "engines": {
-    "node": "18.0.0"
+    "node": "10.0.0"
   },
   "scripts": {
     "start": "node server.js",
@@ -24,13 +24,15 @@
   },
   "homepage": "https://github.com/flmngwllm/BrewThis#readme",
   "dependencies": {
-    "concurrently": "^4.1.1",
+    "concurrently": "^8.2.1",
     "cypress": "^4.2.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
+    "latest": "^0.2.0",
     "method-override": "^3.0.0",
     "mongoose": "^5.6.9",
     "morgan": "^1.9.1",
+    "n": "^9.1.0",
     "node": "^20.7.0"
   }
 }
