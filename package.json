@@ -2,13 +2,13 @@
   "name": "brewthis",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "backend/server.js",
   "engines": {
     "node": "10.0.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "dev": "concurrently \"node server.js\" \"cd client && npm start\"",
+    "start": "node /backend/server.js",
+    "dev": "concurrently \"node ../backend/server.js\" \"cd client && npm start\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
     "postinstall": "cd client && npm i && npm run build"
