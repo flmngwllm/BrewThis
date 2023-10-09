@@ -2,7 +2,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const app = express();
-const routes = require("./routes/index");
+const routes = require("./backend/db/routes/index");
 
 //registering middleware
 app.use(morgan("dev"));
