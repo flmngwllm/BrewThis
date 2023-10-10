@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const breweryController = require("../../../controllers/breweryController");
+const breweryController = require("../controllers/breweryController");
 
 // routes for breweries
 router.get("/api/breweries", breweryController.index);

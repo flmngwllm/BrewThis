@@ -2,7 +2,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const app = express();
-const routes = require("./backend/db/routes/index");
+const routes = require("./routes/index");
 
 //registering middleware
 app.use(morgan("dev"));
@@ -12,12 +12,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //build directory for static resources
-app.use(express.static(`${__dirname}/client/build`));
+app.use(express.static(`${__dirname}/../client/build`));
 
 app.use("/", routes);
 
 app.get("/*", (req, res) => {
-  res.sendFile(`${__dirname}/client/build/index.html`);
+  res.sendFile(`${__dirname}/../client/build/index.html`);
 });
 
 //setup prot and start port
